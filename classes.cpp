@@ -15,6 +15,10 @@ class Book {
         }
 };
 
+class Textbook : public Book{
+
+};
+
 int main() {
     Book book1("Harry Potter", "J.K. Rowling", 500);
     cout << book1.title << '\n' ;
